@@ -1,11 +1,11 @@
 %define kloxo /home/kloxo/httpd/webmail
-%define productname kloxong-webmail
+%define productname kloxo-webmail
 %define packagename rainloop
 %define sourcename rainloop
 
 Name: %{productname}-%{packagename}
 Summary: Rainloop webmail client
-Version: 1.12.1
+Version: 1.17.0
 Release: 1.kng%{?dist}
 License: GPL
 URL: http://rainloop.net/
@@ -44,6 +44,10 @@ Rainloop webmail is simple, modern & fast web-based email client
 %{kloxo}/%{packagename}
 
 %changelog
+* Thu Jul 25 2024 John Parnell Pierce <john@luckytanuki.com> 1.17.0-1
+- upgrade
+- change name to kloxo
+
 * Mon Feb 3 2020 John Parnell Pierce <john@luckytanuki.com> 1.12.1-1
 - upgrade
 
