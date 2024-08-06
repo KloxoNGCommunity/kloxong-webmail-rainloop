@@ -6,7 +6,7 @@
 Name: %{productname}-%{packagename}
 Summary: Rainloop webmail client
 Version: 1.17.0
-Release: 1.kng%{?dist}
+Release: 2.kng%{?dist}
 License: GPL
 URL: http://rainloop.net/
 Group: Applications/Internet
